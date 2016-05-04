@@ -74,3 +74,30 @@ git commit -m "Alterações no README"
 ```
 git push origin change_readme
 ```
+
+### Gerando um pull request
+
+No github, após realizar o push para a branch, uma nova branch será criada no repositório. Com isso, clique em um dos botões para gerar o pull request "New Pull request ou Compare e pull request", em ambos você deverá colocar o comentário referente às alterações realizadas e confirmar a criação do pull request
+
+### Merge do pull request
+
+Ao acessar o repositório no github, haverá um pull request pendente na aba Pull requests,
+acesso o registro e realize o merge através do botão "Merge pull request"
+
+### Deletando a branch utilizada para as alterações
+
+```
+git checkout master
+```
+
+#### Deletando a branch local
+
+```
+git branch -d change_readme
+```
+
+#### Deletando a branch remota
+
+```
+git push origin --delete change_readme
+```
