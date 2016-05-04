@@ -50,3 +50,27 @@ git push -u origin master
 ```
 git clone git@github.com:filhodomauro/git_utils.git
 ```
+## Contribuindo com o repositório
+
+### Criando uma branch
+```
+git checkout -b change_readme
+```
+
+### Adicionando arquivos alterados
+
+```
+git add --all
+```
+
+### Realizando o commit
+
+```
+git commit -m "Alterações no README"
+```
+
+### Realizando o push para a branch
+
+```
+git push origin change_readme
+```
