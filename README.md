@@ -101,3 +101,19 @@ git branch -d change_readme
 ```
 git push origin --delete change_readme
 ```
+
+## Desfazendo Coisas
+
+### Revertendo add
+
+Ao realizar esses comandos, os arquivos voltam para "untracked files"
+
+```
+git reset HEAD <file>
+```
+
+ou
+
+```
+git reset HEAD
+```
